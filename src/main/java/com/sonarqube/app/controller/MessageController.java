@@ -17,7 +17,7 @@ public class MessageController {
 	@GetMapping("/one")
 	public String getMessage() {
 		/* Go to Service class and fetch the message */
-		String message = messageService.getMessage("geoff");
-		return message; 
+		return messageService.getMessage("geoff");
+	 
 	}	
 }
