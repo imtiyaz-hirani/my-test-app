@@ -10,7 +10,8 @@ public class MessageService {
 
 	public String getMessage(String name) {
 		Map<String,String> map = getData();
-		return map.get(name);
+		String message = map.get(name);
+		return message;	
 	}
 	
 	Map<String,String> getData(){
